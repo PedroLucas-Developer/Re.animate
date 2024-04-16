@@ -8,7 +8,7 @@ export default function CardsHome () {
   return (
     <div className="flex flex-row w-full justify-between max-w-[1200px] max-[1100px]:flex-col">
       <div className="w-8/12 flex flex-row justify-between max-[1100px]:mx-auto max-[1100px]:w-11/12 max-[600px]:flex-col">
-        <div className="w-1/2 max-w-[350px] max-[1100px]:w-full ml-[0.8rem] max-[600px]:mx-auto">
+        <div className="w-1/2 max-w-[350px] max-[1100px]:w-full ml-[0.8rem] max-[1100px]:ml-0 max-[600px]:mx-auto">
           <Card Img={Check} titulo="Mais qualidade">
             Replique a peça master
             <br />
@@ -17,7 +17,7 @@ export default function CardsHome () {
             animados quanto estáticos.
           </Card>
         </div>
-        <div className="w-1/2 max-w-[350px] max-[1100px]:w-full max-[600px]:mt-10 max-[600px]:mx-auto">
+        <div className="w-1/2 max-w-[350px] mr-[0.7rem] max-[1100px]:mr-0 max-[1100px]:w-full max-[600px]:mt-10 max-[600px]:mx-auto">
           <Card Img={Scale} titulo="Mais escalabilidade">
             Crie milhares de peças
             <br />

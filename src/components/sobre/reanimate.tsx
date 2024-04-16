@@ -66,12 +66,12 @@ export default function Reanimate() {
   return (
     <div id='features' className='flex w-full flex-col justify-center'>
       <div className="relative w-full mx-auto max-[1500px]:w-11/12 max-[950px]:p-10 max-[700px]:pt-14 z-30 px-5 pt-14 pb-24 max-w-[1440px] flex flex-col justify-center backdrop-blur bg-[#F5F5F5]/75 rounded-[49px]">
-        <div className="mb-28 mt-10 max-[600px]:mb-14">
+        <div className="mb-[6.5rem] mt-11 max-[600px]:mb-14">
           <div className='flex flex-col mx-auto text-center max-[550px]:max-w-[250px]'>
             <p className="text-[48px] font-bold font-['Fira Sans'] text-[#E8336A] max-[950px]:text-[35px]">
               Revolucione a sua operação!
             </p>
-            <p className="text-[32px] mt-[10px] font-['Fira Sans'] max-[800px]:text-[25px] max-[600px]:text-[23px] leading-[28px]">
+            <p className="text-[32px] mt-[9px] font-['Fira Sans'] max-[800px]:text-[25px] max-[600px]:text-[23px] leading-[28px]">
               <b>O re.animate</b> é dividido em três módulos:
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function Reanimate() {
           <Features 
             replicate='ml-[-6rem] max-[1100px]:mt-auto max-[1100px]:ml-0'
             alt='Replicate Ads'
-            orientation="my-[9rem] mb-[10rem] max-[950px]:flex-col flex-row-reverse max-[600px]:my-14" 
+            orientation="mt-[9rem] mb-[10.5rem] max-[950px]:flex-col flex-row-reverse max-[600px]:my-14" 
             id="replicate" 
             Pc={PcReplicateAds} 
             Logo={LogoReplicateAds} 

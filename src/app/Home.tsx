@@ -36,7 +36,7 @@ export default function Home() {
           <div className="w-full flex max-md:flex-col flex-row justify-center relative">
             <div className="w-1/2 mt-[10rem] pl-2 z-[30] flex flex-col justify-start relative max-[1100px]:w-full max-[450px]:px-5">
               <div className="w-full flex flex-row justify-start max-sm:w-full">
-                <Image className="flex" src={Title} alt=""/>
+                <Image priority={true} className="flex" src={Title} alt=""/>
               </div>
               <div className="mb-8 mt-2 max-md:mb-0">
                 <p className="text-[24px] font-['Fira Sans'] max-[400px]:text-[18px] leading-[30px]">
