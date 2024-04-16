@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  --swiper-pagination-color: #E8336A;
+  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-inactive-color: #E8336A;
+  --swiper-pagination-bullet-horizontal-gap: 1rem;
+  --swiper-pagination-bullet-vertical-gap: 1rem;
+}
+*::selection{
+  background-color: #dd1b58;
+  color: white;
+}
