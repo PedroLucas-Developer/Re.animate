@@ -48,7 +48,7 @@ export default function Home() {
               <div className="w-[370px] max-sm:w-full max-md:w-[300px] max-lg:w-[290px] mt-10 relative justify-items-start">
                 <Botao 
                   Click={openModal} 
-                  Font="text-[30px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
+                  Font="text-[32px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
                   TextoBotao="CONTRATE AGORA" 
                   Tamanho="w-[370px] h-[70px] max-[600px]:h-[50px] max-[1100px]:w-full" 
                   Types="cursor-pointer relative text-[#ffffff] hover:text-[#E8336A] m-auto justify-center bg-[#E8336A] hover:bg-[#ffffff]"/>

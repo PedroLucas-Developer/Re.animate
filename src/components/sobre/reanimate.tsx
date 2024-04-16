@@ -102,7 +102,7 @@ export default function Reanimate() {
             Logo={LogoMasterMotion} 
             texto="Dê vida às suas criações de forma simples, e criativa, transformando elementos estáticos, em animações de alto nível. De maneira rápida, fácil e totalmente no code.">
               <Botao 
-                Font="text-[30px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
+                Font="text-[32px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
                 Click={() => openModal({ type: "master" })}
                 TextoBotao="VER SOLUÇÃO" 
                 Tamanho="w-[370px] max-[600px]:w-full max-[600px]:h-[50px] h-[70px]" 
@@ -117,7 +117,7 @@ export default function Reanimate() {
             Logo={LogoReplicateAds} 
             texto="Otimize o processo de replicação para diversos formatos em apenas um clique, mantendo a qualidade visual. Mudou alguma informação? Altere rapidamente de modo automático toda sua linha criativa.">
               <Botao
-                Font="text-[30px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
+                Font="text-[32px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
                 Click={() => openModal({ type: "replicate" })}
                 TextoBotao="VER SOLUÇÃO" 
                 Tamanho="w-[370px] max-[600px]:w-full max-[600px]:h-[50px] h-[70px]" 
@@ -132,7 +132,7 @@ export default function Reanimate() {
             Logo={LogoDynamic} 
             texto="Em casos onde existem muitos produtos e ofertas a serem publicados, crie um feed com inúmeras variações de conteúdos em um só lugar utilizando apenas o KV.">
               <Botao 
-                Font="text-[30px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
+                Font="text-[32px] max-[600px]:text-[18px] max-[1100px]:text-[25px]" 
                 Click={() => openModal({ type: "dynamic" })}
                 TextoBotao="VER SOLUÇÃO" 
                 Tamanho="w-[370px] max-[600px]:w-full max-[600px]:h-[50px] h-[70px]" 
